@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
 @layer base {
   .py-navbar-item {
     @apply py-6;
@@ -33,6 +35,9 @@
   .search-bar {
     @apply w-80;
   }
+  .margin {
+    @apply mt-10;
+  }
 }
 
 body {
@@ -40,4 +45,30 @@ body {
 }
 .container {
   height: 100vh;
+}
+.wysiwyg-content h3,
+.wysiwyg-content h4 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.order-object {
+  width: 144px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.wysiwyg-content table > tbody > tr > td {
+  padding: 0.25rem 0.125rem;
+}
+.wysiwyg-content table > tbody > tr > td:first-child {
+  font-weight: bold;
+}
+
+.table > tbody > tr > td,
+.table > thead > tr > th {
+  padding: 0.5rem;
+}
+.table-sm > tbody > tr > td,
+.table-sm > thead > tr > th {
+  padding: 0.25rem;
 }
