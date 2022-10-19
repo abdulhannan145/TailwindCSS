@@ -15,7 +15,9 @@
   .pb-navbar-item {
     @apply pb-6;
   }
-
+  .cart-image {
+    @apply w-[140px] h-[140px] object-cover;
+  }
   .px-navbar-item {
     @apply px-3;
   }
@@ -50,12 +52,6 @@ body {
 .wysiwyg-content h4 {
   font-weight: 600;
   margin-top: 1rem;
-}
-.order-object {
-  width: 144px;
-  height: 64px;
-  object-fit: contain;
-  margin-bottom: 20px;
 }
 .wysiwyg-content table > tbody > tr > td {
   padding: 0.25rem 0.125rem;
