@@ -617,15 +617,24 @@ video {
 .top-1\/2 {
   top: 50%;
 }
+.object-signin {
+  width: 40%;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 15%;
+  border-radius: 10px;
+}
 .object-container {
   width: 70%;
   background-color: #fff;
   padding-left: 30px;
   padding-right: 30px;
-  margin-left: 80px;
-  margin-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 20px;
   margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 70px;
 }
 
 .price {
@@ -646,6 +655,135 @@ video {
 .delete {
   width: 50px;
   text-align: center;
+}
+.tick {
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+  height: 170px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.heading {
+  font-size: 52px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+.payment {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.visa {
+  font-size: 16px;
+  color: #9ca3af;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.delivery {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.address {
+  font-size: 16px;
+  color: #9ca3af;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.address-st {
+  font-size: 16px;
+  color: #9ca3af;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.invoice-container {
+  width: 70%;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.item {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.title-2 {
+  font-size: 24px;
+  flex-grow: 1;
+  text-transform: capitalize;
+}
+.invoice {
+  border: 1px solid #9ca3af;
+  margin-right: 20px;
+  width: 150px;
+  height: 38px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.date {
+  color: #9ca3af;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding-right: 20px;
+  border-right: 1px solid #9ca3af;
+}
+.estimate {
+  padding-left: 20px;
+  --tw-bg-opacity: 1;
+  color: rgb(5 150 105 / var(--tw-bg-opacity));
+}
+.order-container {
+  margin-top: 20px;
+  border-top: 1px solid #9ca3af;
+  margin-left: 40px;
+  margin-right: 50px;
+  border-bottom: 1px solid #9ca3af;
+  padding-bottom: 20px;
+}
+.cart-object {
+  margin-top: 20px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.product {
+  margin-top: 20px;
+  margin-left: 30px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 20px;
+  flex-grow: 1;
+}
+.product-price {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.qty {
+  color: #9ca3af;
+  padding-top: 10px;
+}
+.track {
+  width: 150px;
+  height: 38px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 150 105 / var(--tw-bg-opacity));
+  color: #fff;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.para {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: justify;
+  padding-bottom: 50px;
 }
 .line {
   border-top: 2px solid gray;
@@ -1337,7 +1475,9 @@ body {
   .sm\:h-10 {
     height: 2.5rem;
   }
-
+  .sm\:.invoice-container {
+    width: 100%;
+  }
   .sm\:h-6 {
     height: 1.5rem;
   }

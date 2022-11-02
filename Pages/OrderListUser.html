@@ -295,78 +295,47 @@
       </button>
     </header>
     <!----Orders----->
-    <div class="p-5 flex justify-center">
-      <div class="container w-1/2 lg:w-2/3 xl:w-2/3 mx-auto">
-        <h1 class="text-3xl font-bold mb-6">Order #1234 Details</h1>
-
-        <div class="bg-white p-3 rounded-md shadow-md">
-          <div>
-            <table class="table-sm">
-              <tbody>
-                <tr>
-                  <td class="font-bold">Order #</td>
-                  <td>1234</td>
-                </tr>
-                <tr>
-                  <td class="font-bold">Order Date</td>
-                  <td>May 3, 07:28PM</td>
-                </tr>
-                <tr>
-                  <td class="font-bold">Status</td>
-                  <td>
-                    <span class="bg-emerald-500 text-white p-1 rounded"
-                      >Paid</span
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td class="font-bold">SubTotal</td>
-                  <td>$157</td>
-                </tr>
-              </tbody>
-            </table>
+    <div class="">
+      <div class="invoice-container">
+        <div class="flex justify-between item">
+          <div class="title-2">Product Title:#00000</div>
+          <button class="invoice">invoice</button>
+          <button class="track">track order</button>
+        </div>
+        <div class="flex item">
+          <div class="date">
+            order date:
+            <span class="text-black">Feb 16 ,2022</span>
           </div>
-
-          <hr class="my-5" />
-
-          <!-- Order Items -->
-          <!-- <div class="flex">
-            <div class="order-object">
-              <img
-                src="/images/img/mailchimp-lAx4E6Gl06s-unsplash.jpg"
-                alt=""
-                class=""
-              />
+          <div class="estimate">Estimated Delivery : May 14,2022</div>
+        </div>
+        <div class="order-container">
+          <div class="flex">
+            <img src="/images/img/1_1.jpg" alt="" class="cart-object" />
+            <div class="product">iphone 12 pro max</div>
+            <div class="product-price">
+              <span>$2500.00</span>
+              <div class="qty">Qty:1</div>
             </div>
-          </div> -->
-          <!--/ Order Items -->
-
-          <div class="border-t border-gray-300 pt-4">
-            <button
-              type="submit"
-              class="btn-primary flex justify-center items-center w-full py-3 text-lg pl-10 pr-10"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
-                />
-              </svg>
-              Proceed to Pay
-            </button>
+          </div>
+        </div>
+        <div class="flex justify-between item">
+          <div class="payment">
+            <div>payment</div>
+            <div class="visa">visa**56</div>
+          </div>
+          <div class="delivery">
+            <div>Delivery</div>
+            <div class="address">address</div>
+            <p class="address-st">
+              847 jewess Bridge <br />
+              Apt.174 London, <br />
+              UK 474-769-3919
+            </p>
           </div>
         </div>
       </div>
     </div>
-
     <!----------Footer--------->
     <div
       class="flex justify-center bg-slate-900 text-white pb-navbar-item pt-6"
